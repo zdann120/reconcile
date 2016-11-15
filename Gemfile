@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 ruby '2.3.1'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
@@ -25,7 +27,7 @@ gem 'slim-rails'
 group :development do
   gem 'better_errors'
   gem 'foreman'
-  gem 'hub', :require=>nil
+  gem 'hub', require: nil
   gem 'rails_layout'
   gem 'spring-commands-rspec'
 end
